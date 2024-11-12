@@ -21,7 +21,7 @@ public class ProcessingImageGrid extends PApplet {
     private final String inputImagesDir = "data/images";
 
     // Standby mode, -1 for disabled, otherwise the amount of seconds to automatically switch images
-    private final int standbySwitchSeconds = 60 * 2;
+    private final int standbySwitchSeconds = -1;
 
     // Input images and grid images
     private PImage[] inputImages;

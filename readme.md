@@ -1,7 +1,7 @@
 # Processing Image Grid
 
 > An interactive image grid visualizer using the Processing library.
-> This sketch creates a grid of images that respond to noise functions and
+> Creates a grid of square images that respond to noise functions and
 > user interactions to produce dynamic visual effects.
 
 This program generates an evolving visual display by organizing small square images into a grid structure.
@@ -15,6 +15,17 @@ interactive visual experiences.
 Parameters controlling the noise, update probabilities, neighbor influence,
 and special effects can be adjusted in real-time through the ControlP5 UI,
 enabling users to explore a wider range of visual outcomes.
+
+A couple of examples of the program in action:
+
+<p align="center">
+  <img src="data/examples/3.gif" alt="Example 3">
+</p>
+
+<p align="center">
+  <img src="data/examples/4.gif" alt="Example 1" width="45%">
+  <img src="data/examples/2.gif" alt="Example 2" width="45%">
+</p>
 
 ## Requirements
 
